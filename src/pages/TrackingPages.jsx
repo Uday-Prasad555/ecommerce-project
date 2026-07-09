@@ -1,11 +1,12 @@
 import { Header} from '../components/Header.jsx'
+import trackingFavicon from "../assets/images/tracking-favicon.png";
 import './TrackingPages.css'
 
 export function TrackingPages() {
     return(
         <>
         <title>Tracking</title>
-        <link rel="icon" type="image/svg+xml" href="tracking-favicon.png" />
+        <link rel="icon" type="image/svg+xml" href={trackingFavicon} />
         <Header />
 
     <div className="tracking-page">
